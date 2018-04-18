@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="xsd_dokument_zj.xsd"?>
+<bakalarska_prace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd_dokument_zj.xsd">
+    <!--1. struktura BP-->
+    <prace id="1">
+        <zakladni_informace_autor>
+            <jmeno_autora>Adam</jmeno_autora>
+            <prijmeni_autora>Bíl</prijmeni_autora>
+            <pohlavi>Muž</pohlavi>
+            <datum_narozeni vek="22">
+                <rok>1996</rok>
+                <mesic>02</mesic>
+                <den>07</den>
+            </datum_narozeni>
+            <email>adam.bil@hotmail.cz</email>
+            <fakulta zkratka="PEF">Provozně ekonomická fakulta</fakulta>
+            <studijni_program>Systémové inženýrství a informatika</studijni_program>
+            <studijni_obor>Informatika</studijni_obor>
+            <studijni_skupina>3</studijni_skupina>
+            <id_studia>209657</id_studia>
+            <typ_studia>Prezenční</typ_studia>
+            <druh_studia>Bakalářské</druh_studia>
+            <postup_studiem rok_nastupu="2016">
+                <rocnik>2</rocnik>
+                <semestr>4</semestr>
+            </postup_studiem>
+        </zakladni_informace_autor>
+
+        <zakladni_informace_prace>
+            <typ_prace>Bakalářská práce</typ_prace>
+            <nazev_prace_cestina>Optimalizace webových stránek pro vyhledávače a user experience</nazev_prace_cestina>
+            <nazev_prace_anglictina>Web page search engine optimization and user experience</nazev_prace_anglictina>
+            <vedouci_prace nejvyssi_titul="Ph.D.">
+                <jmeno_vedouciho>Václav</jmeno_vedouciho>
+                <prijmeni_vedouciho>Lohr</prijmeni_vedouciho>
+            </vedouci_prace>
+            <garantujici_pracoviste>Katedra informačních technologií</garantujici_pracoviste>
+            <jazyk_prace>Čeština</jazyk_prace>
+            <cile_prace>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</cile_prace>
+            <metodika>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</metodika>
+            <doporuceny_rozsah_prace>30-40</doporuceny_rozsah_prace>
+            <klicova_slova>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</klicova_slova>
+            <doporucene_zdroje>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</doporucene_zdroje>
+            <predbezny_termin_obhajoby>
+                <skolni_rok>2018/2019</skolni_rok>
+                <obdobi_semestru>LS</obdobi_semestru>
+            </predbezny_termin_obhajoby>
+        </zakladni_informace_prace>
+
+        <struktura_dokumentu>
+            <format_stranky velikost="210x297">A4</format_stranky>
+            <okraje_stranky>
+                <levy>3,5 cm</levy>
+                <horni>2,5 cm</horni>
+            </okraje_stranky>
+            <pismo>
+                <font>Times New Roman</font>
+                <velikost>11</velikost>
+            </pismo>
+            <zarovnani>blok</zarovnani>
+            <radkovani>1,5</radkovani>
+        </struktura_dokumentu>
+    </prace>
+
+    <!--2. struktura BP-->
+    <prace id="2">
+        <zakladni_informace_autor>
+            <jmeno_autora>Veronika</jmeno_autora>
+            <prijmeni_autora>Haklová</prijmeni_autora>
+            <pohlavi>Žena</pohlavi>
+            <datum_narozeni vek="19">
+                <rok>1998</rok>
+                <mesic>08</mesic>
+                <den>04</den>
+            </datum_narozeni>
+            <email>haklova@seznam.cz</email>
+            <fakulta zkratka="PEF">Provozně ekonomická fakulta</fakulta>
+            <studijni_program>Hospodářská politika a správa</studijni_program>
+            <studijni_obor>Podnikání a administrativa</studijni_obor>
+            <studijni_skupina>5</studijni_skupina>
+            <id_studia>11123</id_studia>
+            <typ_studia>Prezenční</typ_studia>
+            <druh_studia>Bakalářské</druh_studia>
+            <postup_studiem rok_nastupu="2017">
+                <rocnik>1</rocnik>
+                <semestr>2</semestr>
+            </postup_studiem>
+        </zakladni_informace_autor>
+
+        <zakladni_informace_prace>
+            <typ_prace>Bakalářská práce</typ_prace>
+            <nazev_prace_cestina>Analýza trhu práce</nazev_prace_cestina>
+            <nazev_prace_anglictina>Analysis of labour market</nazev_prace_anglictina>
+            <vedouci_prace nejvyssi_titul="Ing.">
+                <jmeno_vedouciho>Jana</jmeno_vedouciho>
+                <prijmeni_vedouciho>Pavlíčková</prijmeni_vedouciho>
+            </vedouci_prace>
+            <garantujici_pracoviste>Katedra obchodu a financí</garantujici_pracoviste>
+            <jazyk_prace>Čeština</jazyk_prace>
+            <cile_prace>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</cile_prace>
+            <metodika>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</metodika>
+            <doporuceny_rozsah_prace>30-40</doporuceny_rozsah_prace>
+            <klicova_slova>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</klicova_slova>
+            <doporucene_zdroje>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</doporucene_zdroje>
+            <predbezny_termin_obhajoby>
+                <skolni_rok>2019/2020</skolni_rok>
+                <obdobi_semestru>ZS</obdobi_semestru>
+            </predbezny_termin_obhajoby>
+        </zakladni_informace_prace>
+
+        <struktura_dokumentu>
+            <format_stranky velikost="210x297">A4</format_stranky>
+            <okraje_stranky>
+                <levy>3,5 cm</levy>
+                <horni>2,5 cm</horni>
+            </okraje_stranky>
+            <pismo>
+                <font>Arial</font>
+                <velikost>12</velikost>
+            </pismo>
+            <zarovnani>blok</zarovnani>
+            <radkovani>1,3</radkovani>
+        </struktura_dokumentu>
+    </prace>
+
+    <!--3. struktura BP-->
+    <prace id="3">
+        <zakladni_informace_autor>
+            <jmeno_autora>Vojtěch</jmeno_autora>
+            <prijmeni_autora>Kraus</prijmeni_autora>
+            <pohlavi>Muž</pohlavi>
+            <datum_narozeni vek="26">
+                <rok>1992</rok>
+                <mesic>01</mesic>
+                <den>03</den>
+            </datum_narozeni>
+            <email>kraus@email.cz</email>
+            <fakulta zkratka="TF">Technická fakulta</fakulta>
+            <studijni_program>Katedra zemědělských strojů</studijni_program>
+            <studijni_obor>Zemědělská technika</studijni_obor>
+            <studijni_skupina>13</studijni_skupina>
+            <id_studia>129312937</id_studia>
+            <typ_studia>Kombinované</typ_studia>
+            <druh_studia>Magisterské</druh_studia>
+            <postup_studiem rok_nastupu="2013">
+                <rocnik>5</rocnik>
+                <semestr>9</semestr>
+            </postup_studiem>
+        </zakladni_informace_autor>
+
+        <zakladni_informace_prace>
+            <typ_prace>Diplomová práce</typ_prace>
+            <nazev_prace_cestina>Zrychlení traktorů</nazev_prace_cestina>
+            <nazev_prace_anglictina>Faster tractors</nazev_prace_anglictina>
+            <vedouci_prace nejvyssi_titul="doc.">
+                <jmeno_vedouciho>Kroulík</jmeno_vedouciho>
+                <prijmeni_vedouciho>Milan</prijmeni_vedouciho>
+            </vedouci_prace>
+            <garantujici_pracoviste>Katedra zemědělských strojů</garantujici_pracoviste>
+            <jazyk_prace>Angličtina</jazyk_prace>
+            <cile_prace>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</cile_prace>
+            <metodika>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</metodika>
+            <doporuceny_rozsah_prace>50-60</doporuceny_rozsah_prace>
+            <klicova_slova>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</klicova_slova>
+            <doporucene_zdroje>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</doporucene_zdroje>
+            <predbezny_termin_obhajoby>
+                <skolni_rok>2017/2018</skolni_rok>
+                <obdobi_semestru>LS</obdobi_semestru>
+            </predbezny_termin_obhajoby>
+        </zakladni_informace_prace>
+
+        <struktura_dokumentu>
+            <format_stranky velikost="210x297">A4</format_stranky>
+            <okraje_stranky>
+                <levy>2,5 cm</levy>
+                <horni>3,5 cm</horni>
+            </okraje_stranky>
+            <pismo>
+                <font>Calibri</font>
+                <velikost>14</velikost>
+            </pismo>
+            <zarovnani>vlevo</zarovnani>
+            <radkovani>1</radkovani>
+        </struktura_dokumentu>
+    </prace>
+
+    <!--4. struktura BP-->
+    <prace id="4">
+        <zakladni_informace_autor>
+            <jmeno_autora>Tomas</jmeno_autora>
+            <prijmeni_autora>Novak</prijmeni_autora>
+            <pohlavi>Muž</pohlavi>
+            <datum_narozeni vek="19">
+                <rok>1999</rok>
+                <mesic>01</mesic>
+                <den>01</den>
+            </datum_narozeni>
+            <email>novak.t@hotmail.cz</email>
+            <fakulta zkratka="PEF">Provozně ekonomická fakulta</fakulta>
+            <studijni_program>Manažerské schopnosti</studijni_program>
+            <studijni_obor>Provoz a Ekonomika</studijni_obor>
+            <studijni_skupina>82</studijni_skupina>
+            <id_studia>1628704</id_studia>
+            <typ_studia>Prezenční</typ_studia>
+            <druh_studia>Bakalářské</druh_studia>
+            <postup_studiem rok_nastupu="2019">
+                <rocnik>1</rocnik>
+                <semestr>2</semestr>
+            </postup_studiem>
+        </zakladni_informace_autor>
+
+        <zakladni_informace_prace>
+            <typ_prace>Bakalářská práce</typ_prace>
+            <nazev_prace_cestina>Finance</nazev_prace_cestina>
+            <nazev_prace_anglictina>Finance</nazev_prace_anglictina>
+            <vedouci_prace nejvyssi_titul="Mgr.">
+                <jmeno_vedouciho>Josefína</jmeno_vedouciho>
+                <prijmeni_vedouciho>Tomášová</prijmeni_vedouciho>
+            </vedouci_prace>
+            <garantujici_pracoviste>Katedra informačních technologií</garantujici_pracoviste>
+            <jazyk_prace>Čeština</jazyk_prace>
+            <cile_prace>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</cile_prace>
+            <metodika>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</metodika>
+            <doporuceny_rozsah_prace>30-40</doporuceny_rozsah_prace>
+            <klicova_slova>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</klicova_slova>
+            <doporucene_zdroje>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</doporucene_zdroje>
+            <predbezny_termin_obhajoby>
+                <skolni_rok>2021/2022</skolni_rok>
+                <obdobi_semestru>ZS</obdobi_semestru>
+            </predbezny_termin_obhajoby>
+        </zakladni_informace_prace>
+
+        <struktura_dokumentu>
+            <format_stranky velikost="210x297">A3</format_stranky>
+            <okraje_stranky>
+                <levy>3,5 cm</levy>
+                <horni>2,5 cm</horni>
+            </okraje_stranky>
+            <pismo>
+                <font>Times New Roman</font>
+                <velikost>11</velikost>
+            </pismo>
+            <zarovnani>blok</zarovnani>
+            <radkovani>1,8</radkovani>
+        </struktura_dokumentu>
+    </prace>
+
+    <!--5. struktura BP-->
+    <prace id="5">
+        <zakladni_informace_autor>
+            <jmeno_autora>Martina</jmeno_autora>
+            <prijmeni_autora>Martínková</prijmeni_autora>
+            <pohlavi>Muž</pohlavi>
+            <datum_narozeni vek="30">
+                <rok>1988</rok>
+                <mesic>11</mesic>
+                <den>18</den>
+            </datum_narozeni>
+            <email>mm@gmail.cz</email>
+            <fakulta zkratka="FŽP">Fakulta životního prostředí</fakulta>
+            <studijni_program>Aplikovaná ekologie</studijni_program>
+            <studijni_obor>Ekologie</studijni_obor>
+            <studijni_skupina>12</studijni_skupina>
+            <id_studia>15151515</id_studia>
+            <typ_studia>Kombinované</typ_studia>
+            <druh_studia>Doktorské</druh_studia>
+            <postup_studiem rok_nastupu="2010">
+                <rocnik>8</rocnik>
+                <semestr>15</semestr>
+            </postup_studiem>
+        </zakladni_informace_autor>
+
+        <zakladni_informace_prace>
+            <typ_prace>Disertační práce</typ_prace>
+            <nazev_prace_cestina>Ekologie lesů</nazev_prace_cestina>
+            <nazev_prace_anglictina>Ecology of forests</nazev_prace_anglictina>
+            <vedouci_prace nejvyssi_titul="prof.">
+                <jmeno_vedouciho>Tomáš</jmeno_vedouciho>
+                <prijmeni_vedouciho>Tomášek</prijmeni_vedouciho>
+            </vedouci_prace>
+            <garantujici_pracoviste>Katedra aplikované ekologie</garantujici_pracoviste>
+            <jazyk_prace>Němčina</jazyk_prace>
+            <cile_prace>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</cile_prace>
+            <metodika>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</metodika>
+            <doporuceny_rozsah_prace>70-80</doporuceny_rozsah_prace>
+            <klicova_slova>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</klicova_slova>
+            <doporucene_zdroje>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget.</doporucene_zdroje>
+            <predbezny_termin_obhajoby>
+                <skolni_rok>2018/2019</skolni_rok>
+                <obdobi_semestru>ZS</obdobi_semestru>
+            </predbezny_termin_obhajoby>
+        </zakladni_informace_prace>
+
+        <struktura_dokumentu>
+            <format_stranky velikost="210x297">A4</format_stranky>
+            <okraje_stranky>
+                <levy>3,5 cm</levy>
+                <horni>2,5 cm</horni>
+            </okraje_stranky>
+            <pismo>
+                <font>Times New Roman</font>
+                <velikost>11</velikost>
+            </pismo>
+            <zarovnani>blok</zarovnani>
+            <radkovani>1,5</radkovani>
+        </struktura_dokumentu>
+    </prace>
+
+
+</bakalarska_prace>

@@ -1,0 +1,104 @@
+
+[
+
+  {
+    "ID": "1",
+    "Jméno autora": "Adam",
+    "Příjmení autora": "Bíl",
+    "Pohlaví": "Muž",
+    "Rok narození":"1996",
+    "Kontakt":"adam.bil@hotmail.cz",
+    "Druh studia":"Bakalářské",
+    "Studijní obor":"Informatika",
+    "Studijní skupina":"3",
+    "Typ psané práce":"Bakalářská práce",
+    "Název práce":"Optimalizace webových stránek pro vyhledávače a user experience",
+    "Vedoucí práce":"Lohr",
+    "Garantující katedra":"Katedra informačních technologií",
+    "Předpokládaný rok obhajoby":"2018/2019",
+    "Formát stránky":"A4",
+    "Použité písmo":"Times New Roman",
+    "Použíté řádkování":"1,5"
+  }
+,
+  {
+    "ID": "2",
+    "Jméno autora": "Veronika",
+    "Příjmení autora": "Haklová",
+    "Pohlaví": "Žena",
+    "Rok narození":"1998",
+    "Kontakt":"haklova@seznam.cz",
+    "Druh studia":"Bakalářské",
+    "Studijní obor":"Podnikání a administrativa",
+    "Studijní skupina":"5",
+    "Typ psané práce":"Bakalářská práce",
+    "Název práce":"Analýza trhu práce",
+    "Vedoucí práce":"Pavlíčková",
+    "Garantující katedra":"Katedra obchodu a financí",
+    "Předpokládaný rok obhajoby":"2019/2020",
+    "Formát stránky":"A4",
+    "Použité písmo":"Arial",
+    "Použíté řádkování":"1,3"
+  }
+,
+  {
+    "ID": "3",
+    "Jméno autora": "Vojtěch",
+    "Příjmení autora": "Kraus",
+    "Pohlaví": "Muž",
+    "Rok narození":"1992",
+    "Kontakt":"kraus@email.cz",
+    "Druh studia":"Magisterské",
+    "Studijní obor":"Zemědělská technika",
+    "Studijní skupina":"13",
+    "Typ psané práce":"Diplomová práce",
+    "Název práce":"Zrychlení traktorů",
+    "Vedoucí práce":"Milan",
+    "Garantující katedra":"Katedra zemědělských strojů",
+    "Předpokládaný rok obhajoby":"2017/2018",
+    "Formát stránky":"A4",
+    "Použité písmo":"Calibri",
+    "Použíté řádkování":"1"
+  }
+,
+  {
+    "ID": "4",
+    "Jméno autora": "Tomas",
+    "Příjmení autora": "Novak",
+    "Pohlaví": "Muž",
+    "Rok narození":"1999",
+    "Kontakt":"novak.t@hotmail.cz",
+    "Druh studia":"Bakalářské",
+    "Studijní obor":"Provoz a Ekonomika",
+    "Studijní skupina":"82",
+    "Typ psané práce":"Bakalářská práce",
+    "Název práce":"Finance",
+    "Vedoucí práce":"Tomášová",
+    "Garantující katedra":"Katedra informačních technologií",
+    "Předpokládaný rok obhajoby":"2021/2022",
+    "Formát stránky":"A3",
+    "Použité písmo":"Times New Roman",
+    "Použíté řádkování":"1,8"
+  }
+,
+  {
+    "ID": "5",
+    "Jméno autora": "Martina",
+    "Příjmení autora": "Martínková",
+    "Pohlaví": "Muž",
+    "Rok narození":"1988",
+    "Kontakt":"mm@gmail.cz",
+    "Druh studia":"Doktorské",
+    "Studijní obor":"Ekologie",
+    "Studijní skupina":"12",
+    "Typ psané práce":"Disertační práce",
+    "Název práce":"Ekologie lesů",
+    "Vedoucí práce":"Tomášek",
+    "Garantující katedra":"Katedra aplikované ekologie",
+    "Předpokládaný rok obhajoby":"2018/2019",
+    "Formát stránky":"A4",
+    "Použité písmo":"Times New Roman",
+    "Použíté řádkování":"1,5"
+  }
+
+]

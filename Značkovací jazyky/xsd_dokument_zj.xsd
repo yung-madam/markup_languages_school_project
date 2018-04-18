@@ -1,0 +1,194 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="bakalarska_prace">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="prace" maxOccurs="unbounded" minOccurs="0">
+                    <xs:annotation>
+                        <xs:documentation>1. struktura BP2. struktura BP3. struktura BP4. struktura BP5. struktura BP</xs:documentation>
+                    </xs:annotation>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="zakladni_informace_autor">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="jmeno_autora"/>
+                                        <xs:element type="xs:string" name="prijmeni_autora"/>
+                                        <xs:element type="xs:string" name="pohlavi"/>
+                                        <xs:element name="datum_narozeni">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:short" name="rok"/>
+                                                    <xs:element type="xs:byte" name="mesic"/>
+                                                    <xs:element type="xs:byte" name="den"/>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:byte" name="vek" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="email"/>
+                                        <xs:element name="fakulta">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="zkratka" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="studijni_program"/>
+                                        <xs:element type="xs:string" name="studijni_obor"/>
+                                        <xs:element type="xs:byte" name="studijni_skupina"/>
+                                        <xs:element type="xs:int" name="id_studia"/>
+                                        <xs:element type="xs:string" name="typ_studia"/>
+                                        <xs:element type="xs:string" name="druh_studia"/>
+                                        <xs:element name="postup_studiem">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:byte" name="rocnik"/>
+                                                    <xs:element type="xs:byte" name="semestr"/>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:short" name="rok_nastupu" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="zakladni_informace_prace">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="typ_prace"/>
+                                        <xs:element type="xs:string" name="nazev_prace_cestina"/>
+                                        <xs:element type="xs:string" name="nazev_prace_anglictina"/>
+                                        <xs:element name="vedouci_prace">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="jmeno_vedouciho"/>
+                                                    <xs:element type="xs:string" name="prijmeni_vedouciho"/>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="nejvyssi_titul" use="optional"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="garantujici_pracoviste"/>
+                                        <xs:element type="xs:string" name="jazyk_prace"/>
+                                        <xs:element type="xs:string" name="cile_prace"/>
+                                        <xs:element type="xs:string" name="metodika"/>
+                                        <xs:element type="xs:string" name="doporuceny_rozsah_prace"/>
+                                        <xs:element type="xs:string" name="klicova_slova"/>
+                                        <xs:element type="xs:string" name="doporucene_zdroje"/>
+                                        <xs:element name="predbezny_termin_obhajoby">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="skolni_rok"/>
+                                                    <xs:element type="xs:string" name="obdobi_semestru"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="struktura_dokumentu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="format_stranky">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute type="xs:string" name="velikost" use="optional"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="okraje_stranky">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="levy"/>
+                                                    <xs:element type="xs:string" name="horni"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="pismo">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element type="xs:string" name="font"/>
+                                                    <xs:element type="xs:byte" name="velikost"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element type="xs:string" name="zarovnani"/>
+                                        <xs:element type="xs:string" name="radkovani"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:byte" name="id" use="optional"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!--Definice omezení-->
+
+    <xs:element name="pohlavi">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Muž"/>
+                <xs:enumeration value="Žena"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="rok">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9][0-9][0-9][0-9]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="mesic">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9][0-9]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="den">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[0-9][0-9]"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="jazyk">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="Čeština"/>
+                <xs:enumeration value="Angličtina"/>
+                <xs:enumeration value="Němčina"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="rocnik">
+        <xs:simpleType>
+            <xs:restriction base="xs:byte">
+                <xs:pattern value="[0-9]"/>
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="9"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="semestr">
+        <xs:simpleType>
+            <xs:restriction base="xs:byte">
+                <xs:pattern value="[0-9][0-9]"/>
+                <xs:minInclusive value="1"/>
+                <xs:maxInclusive value="99"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+</xs:schema>
+
